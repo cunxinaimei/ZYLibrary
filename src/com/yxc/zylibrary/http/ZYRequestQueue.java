@@ -14,6 +14,9 @@ import java.util.List;
  */
 public class ZYRequestQueue implements ZYRequest.ZYRequestListener {
 
+    /**
+     * 队列
+     */
     public List<ZYRequest> queue;
     private ZYRequestQueueListener listener;
     private ZYRequest.ZYRequestListener requestListener;
